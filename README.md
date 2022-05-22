@@ -29,13 +29,13 @@ The app is consisted of a main screen where repositories are shown and upon clic
 You can contribute to this project by reading the code and poiting out/fixing the potential issues in the code itself. You can also implement a new feature or fix a bug or improve the test coverage on the project.
 ### Features
 There are features missing in the project:
-- User should see the loading indicator while the data is loading. - done
-- If network is not available or there is an error user should see a proper error screen. - done
+- User should see the loading indicator while the data is loading. - Fixed
+- If network is not available or there is an error user should see a proper error screen. - Fixed
 
 ### Bugs
 There are bugs that need to be fixed in the project:
-- After bookmarking a repository, coming back to previous page the list is not updated. - done
-- Identify and fix potential memory leaks in the project - checked...and fixed swipe refresh loader issue.
+- After bookmarking a repository, coming back to previous page the list is not updated. - Fixed
+- Identify and fix potential memory leaks in the project - Checked...and fixed swipe refresh loader issue.
 
 ### Testing
 We want to test different components to make sure they are working properly:
@@ -47,11 +47,3 @@ We want to test different components to make sure they are working properly:
   - All the necessary information are fetched properly in the user screen
   - Repository is marked as bookmark properly
   - List is updated after changing the bookmark status of a repository
-
-## How to contribute
-1. Clone (not fork) this repository
-2. Create a new branch for your work
-3. Do the changes you want
-4. Push your branch and changes to a public repository as a standalone repository
-
-**Please do not fork the this repository, and do not raise a pull request to this repo.**
